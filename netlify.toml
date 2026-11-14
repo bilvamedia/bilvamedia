@@ -1,0 +1,22 @@
+# Takeok Entertainments — Netlify
+# Vite SPA in dist/, plus one edge function that serves the feed aggregator.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  # scripts/check-node.mjs rejects anything below 22.13.
+  NODE_VERSION = "22"
+
+# The repo root keeps functions/ for the Qoder Sites edge handler, which is
+# Deno code. Point Netlify's serverless scanner away from it so it is not
+# compiled as a Node function.
+[functions]
+  directory = "netlify/functions"
+
+# Client-side routing: history API paths resolve to the app shell.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

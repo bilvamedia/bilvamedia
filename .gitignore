@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.tsbuildinfo
+.qoder-sites/
+.qoder-sites.json
+
+# Netlify site linkage (holds the site ID and access state) — never commit.
+.netlify/
+
+# Verification screenshots captured during development.
+screenshots/

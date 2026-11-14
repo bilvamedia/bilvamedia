@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" style="width:100%;height:100%;display:block"><defs><clipPath id="kp74"><rect x="20" y="34" width="200" height="172" rx="26"/></clipPath></defs>
+    <rect x="20" y="34" width="200" height="172" rx="26" fill="#FFF0D2"/>
+    <g clip-path="url(#kp74)"><clipPath id="cs73"><path d="M26,34 H214 V168 Q190.5,206.0 167.0,168 Q143.5,206.0 120.0,168 Q96.5,206.0 73.0,168 Q49.5,206.0 26.0,168 Z"/></clipPath>
+    <g clip-path="url(#cs73)"><rect x="20.0" y="34" width="40.6" height="172.0" fill="#FF2E7E"/><rect x="35.0" y="34" width="10" height="172.0" fill="#17111A" opacity=".28"/><rect x="45.0" y="34" width="5" height="172.0" fill="#FFFFFF" opacity=".15"/><rect x="60.0" y="34" width="40.6" height="172.0" fill="#FFB800"/><rect x="75.0" y="34" width="10" height="172.0" fill="#17111A" opacity=".28"/><rect x="85.0" y="34" width="5" height="172.0" fill="#FFFFFF" opacity=".15"/><rect x="100.0" y="34" width="40.6" height="172.0" fill="#00C48A"/><rect x="115.0" y="34" width="10" height="172.0" fill="#17111A" opacity=".28"/><rect x="125.0" y="34" width="5" height="172.0" fill="#FFFFFF" opacity=".15"/><rect x="140.0" y="34" width="40.6" height="172.0" fill="#1E4DFF"/><rect x="155.0" y="34" width="10" height="172.0" fill="#17111A" opacity=".28"/><rect x="165.0" y="34" width="5" height="172.0" fill="#FFFFFF" opacity=".15"/><rect x="180.0" y="34" width="40.6" height="172.0" fill="#FF5E13"/><rect x="195.0" y="34" width="10" height="172.0" fill="#17111A" opacity=".28"/><rect x="205.0" y="34" width="5" height="172.0" fill="#FFFFFF" opacity=".15"/></g>
+    
+    
+    <rect x="26" y="34" width="188" height="13" fill="#FFF6E9"/>
+    <rect x="26" y="52" width="188" height="4" fill="#FFF6E9" opacity=".6"/></g>
+    <rect x="20" y="34" width="200" height="172" rx="26" fill="none" stroke="#141416" stroke-width="6"/></svg>
