@@ -38,6 +38,9 @@
    business styles actually read, so appearance, radius, spacing, typography
    and motion all stay live. */
 :root {
+  /* Paper is the house look, not the light-mode fallback: the site stays on the
+     cream field whatever the visitor's OS prefers. */
+  color-scheme: light;
   --site-bg: #fff6e9;
   --site-fg: #141416;
   --site-accent: #ff4d2e;
@@ -79,21 +82,6 @@
   --motion-slow: calc(420ms * var(--site-motion));
   --ticker-time: calc(48s * var(--site-motion));
   --head-line: calc(1.32 * var(--site-type));
-}
-
-/* Ink ground stays available for the dark appearance, using the brand's ink
-   values rather than the retired purple-black. */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --site-bg: #141416;
-    --site-fg: #fff6e9;
-    --site-on-accent: #141416;
-    --site-accent-text: var(--site-accent);
-    --site-surface: #1d1b22;
-    --site-muted: #b9b3c0;
-    --site-border: rgba(255, 246, 233, 0.16);
-    --spotlight: rgba(255, 209, 102, 0.16);
-  }
 }
 
 :root {
